@@ -132,6 +132,7 @@ GET /v1/audits/?status=in_progress&page=1
 - python manage.py runserver
 
 ## .env
+```http
 SECRET_KEY=
 DEBUG=False
 DB_NAME=
@@ -139,3 +140,4 @@ DB_USER=
 DB_PASSWORD=
 DB_HOST=localhost
 DB_PORT=5432
+```
