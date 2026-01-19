@@ -122,9 +122,20 @@ GET /v1/audits/?status=in_progress&page=1
 - PATCH preferred over PUT for partial updates
 
 ## Run locally
+- python -m venv .venv
+- .venv\Scripts\activate
 - pip install -r requirements.txt
 - python manage.py createsuperuser
 - python manage.py collectstatic
 - python manage.py makemigrations 
 - python manage.py migrate
 - python manage.py runserver
+
+## .env
+SECRET_KEY=
+DEBUG=False
+DB_NAME=
+DB_USER=
+DB_PASSWORD=
+DB_HOST=localhost
+DB_PORT=5432
